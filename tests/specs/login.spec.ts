@@ -14,7 +14,7 @@ describe('login feature', () => {
         driver = await initializeDriver();
     });
 
-    afterEach('close browser', async () => {
+    afterEach('close browser 123', async () => {
         await quiteDriver(driver);
     });
 
